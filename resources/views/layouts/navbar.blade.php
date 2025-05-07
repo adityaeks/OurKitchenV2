@@ -7,9 +7,9 @@
         </button>
     </div>
     <nav class="flex flex-col space-y-4">
-        <a href="#home" class="text-gray-700 hover:text-blue-600 text-lg">Home</a>
-        <a href="#products" class="text-gray-700 hover:text-blue-600 text-lg">Products</a>
-        <a href="#about" class="text-gray-700 hover:text-blue-600 text-lg">About Us</a>
+        <a href="{{ url('/') }}" class="text-gray-700 hover:text-blue-600 text-lg">Home</a>
+        <a href="{{ url('/product') }}" class="text-gray-700 hover:text-blue-600 text-lg">Products</a>
+        <a href="#about" class="text-gray-700 hover:text-blue-600 text-lg">Service</a>
         <a href="#testimonials" class="text-gray-700 hover:text-blue-600 text-lg">Testimonials</a>
         <a href="#contact" class="text-gray-700 hover:text-blue-600 text-lg">Contact</a>
     </nav>
@@ -34,9 +34,9 @@
         </div>
 
         <nav class="hidden md:flex space-x-8">
-            <a href="#home" class="text-gray-700 hover:text-blue-600">Home</a>
-            <a href="#products" class="text-gray-700 hover:text-blue-600">Products</a>
-            <a href="#about" class="text-gray-700 hover:text-blue-600">About Us</a>
+            <a href="{{ url('/') }}" class="text-gray-700 hover:text-blue-600">Home</a>
+            <a href="{{ url('/product') }}" class="text-gray-700 hover:text-blue-600">Products</a>
+            <a href="#about" class="text-gray-700 hover:text-blue-600">Service</a>
             <a href="#testimonials" class="text-gray-700 hover:text-blue-600">Testimonials</a>
             <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
         </nav>
