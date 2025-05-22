@@ -8,10 +8,11 @@
     </div>
     <nav class="flex flex-col space-y-4">
         <a href="{{ url('/') }}" class="text-gray-700 hover:text-blue-600 text-lg">Home</a>
-        <a href="{{ url('/product') }}" class="text-gray-700 hover:text-blue-600 text-lg">Products</a>
-        <a href="#about" class="text-gray-700 hover:text-blue-600 text-lg">Service</a>
-        <a href="#testimonials" class="text-gray-700 hover:text-blue-600 text-lg">Testimonials</a>
-        <a href="#contact" class="text-gray-700 hover:text-blue-600 text-lg">Contact</a>
+        <a href="{{ url('/product1') }}" class="text-gray-700 hover:text-blue-600">Tumpeng & Nasi Liwet</a>
+        <a href="{{ url('/product2') }}" class="text-gray-700 hover:text-blue-600">Daily Home Catering</a>
+        <a href="{{ url('/product3') }}" class="text-gray-700 hover:text-blue-600">Prasmanan Buffet</a>
+        <a href="{{ url('/product4') }}" class="text-gray-700 hover:text-blue-600">Meal Box</a>
+        <a href="{{ url('/product5') }}" class="text-gray-700 hover:text-blue-600">Snack Box</a>
     </nav>
     <div class="mt-8">
         <button class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition w-full">
@@ -27,18 +28,18 @@
             <button id="mobile-menu-button" class="mr-4 text-gray-600 md:hidden">
                 <i class="fas fa-bars text-xl"></i>
             </button>
-            <a href="#" class="text-2xl font-bold text-gray-800 flex items-center">
+            <a href="{{ url('/') }}" class="text-2xl font-bold text-gray-800 flex items-center">
                 <i class="fas fa-utensils text-blue-600 mr-2"></i>
                 OurKitchen
             </a>
         </div>
 
         <nav class="hidden md:flex space-x-8">
-            <a href="{{ url('/') }}" class="text-gray-700 hover:text-blue-600">Home</a>
-            <a href="{{ url('/product') }}" class="text-gray-700 hover:text-blue-600">Products</a>
-            <a href="#about" class="text-gray-700 hover:text-blue-600">Service</a>
-            <a href="#testimonials" class="text-gray-700 hover:text-blue-600">Testimonials</a>
-            <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+            <a href="{{ url('/product1') }}" class="text-gray-700 hover:text-blue-600">Tumpeng & Nasi Liwet</a>
+            <a href="{{ url('/product2') }}" class="text-gray-700 hover:text-blue-600">Daily Home Catering</a>
+            <a href="{{ url('/product3') }}" class="text-gray-700 hover:text-blue-600">Prasmanan Buffet</a>
+            <a href="{{ url('/product4') }}" class="text-gray-700 hover:text-blue-600">Meal Box</a>
+            <a href="{{ url('/product5') }}" class="text-gray-700 hover:text-blue-600">Snack Box</a>
         </nav>
 
         <div class="flex items-center space-x-4">
