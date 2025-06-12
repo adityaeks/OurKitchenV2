@@ -6,7 +6,7 @@
     <!-- Hero Section -->
     <div class="relative bg-cover bg-center py-12" style="background-image: url('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1920&q=80');">
         <div class="absolute inset-0 bg-gradient-to-r from-blue-400/50 to-blue-600/50"></div>
-        <div class="container mx-auto px-4 text-center relative z-10">
+        <div class="container mx-auto px-6 lg:px-16 text-center relative z-10">
             <h1 class="text-3xl md:text-4xl font-bold mb-4 text-white">Prasmanan Buffet</h1>
             <p class="text-lg md:text-xl max-w-2xl mx-auto mb-6 text-white">
                 Hidangan Lezat untuk Acara Spesial Anda</p>
@@ -18,7 +18,7 @@
 
     <!-- About Section -->
     <div class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-6 lg:px-16">
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <!-- Deskripsi -->
                 <div class="md:w-1/2">
@@ -44,12 +44,12 @@
     </div>
 
     <!-- Divider -->
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-6 lg:px-16">
         <div class="border-t border-gray-200 my-8"></div>
     </div>
 
     <!-- Menu Content -->
-    <main id="menuSection" class="container mx-auto px-4 py-8">
+    <main id="menuSection" class="container mx-auto px-6 lg:px-16 py-8">
         <!-- Section Title -->
         <div class="text-center mb-12">
             <h2 class="text-3xl font-bold text-gray-800">Paket Prasmanan Buffet</h2>
@@ -138,7 +138,7 @@
 
     <!-- Promo Section -->
     <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-6 lg:px-16">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-gray-800">Promo Spesial</h2>
                 <div class="w-24 h-1 bg-blue-500 mx-auto mt-4"></div>

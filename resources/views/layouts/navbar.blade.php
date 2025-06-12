@@ -46,10 +46,10 @@
             {{-- <button class="text-gray-600 hover:text-blue-600 relative">
                 <i class="fas fa-search text-xl"></i>
             </button> --}}
-            <button id="cart-button" class="text-gray-600 hover:text-blue-600 relative">
+            <a href="{{ url('/cart') }}" id="cart-button" class="text-gray-600 hover:text-blue-600 relative">
                 <i class="fas fa-shopping-cart text-xl"></i>
                 <span id="cart-count" class="cart-count hidden">0</span>
-            </button>
+            </a>
             <button class="text-gray-600 hover:text-blue-600 relative">
                 <i class="fas fa-user text-xl"></i>
             </button>
